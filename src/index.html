@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadoo - Travel & Tours</title>
+    <link rel="stylesheet" href="/public/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital@0;1&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body class="mx-[8vw] font-[Poppins]">
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="flex justify-between items-center mt-[5vh]">
+            <img src="/public/Logo.png" alt="Jadoo Logo">
+
+            <div class="flex items-center gap-[2.5vw] text-[#212832]">
+                <a href="#" class="hover:text-[#DF6951]">Destinations</a>
+                <a href="#" class="hover:text-[#DF6951]">Hotels</a>
+                <a href="#" class="hover:text-[#DF6951]">Flights</a>
+                <a href="#" class="hover:text-[#DF6951]">Bookings</a>
+                <a href="#" class="hover:text-[#DF6951]">Login</a>
+                <button class="border-2 border-gray-400 rounded-[5px] px-[1.5vw] py-[1vh] hover:bg-gray-100">
+                    Sign Up
+                </button>
+                <select class="outline-none cursor-pointer">
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="flex justify-between items-center mt-[8vh] relative">
+
+        <!-- Left text content -->
+        <div class="w-[35vw]">
+            <p class="text-[#DF6951] font-semibold tracking-wide">
+                BEST DESTINATION AROUND THE WORLD
+            </p>
+            <h1 class="text-[#181E4B] mt-[3vh] font-[Volkhov] text-[3rem] font-bold leading-[1.2]">
+                Travel, enjoy and live a new and full life
+            </h1>
+            <p class="text-[#5E6282] text-[0.9rem] mt-[3vh] leading-7">
+                Built wicked longer admire do barton vanity itself do in it. 
+                Prefered to sportsmen it engrossed listening. Pork gate sell 
+                the west hard to the.
+            </p>
+
+            <div class="flex items-center gap-[2vw] mt-[4vh]">
+                <button class="text-white bg-[#F1A501] px-[2vw] py-[1.5vh] rounded-[7px] hover:bg-[#d99200]">
+                    Find out more
+                </button>
+                <button class="flex items-center gap-[10px] text-[#686D77]">
+                    <i class="fa-solid fa-circle-play text-[2rem] text-[#DF6951]"></i>
+                    Play Demo
+                </button>
+            </div>
+        </div>
+
+        <!-- Decorative background image -->
+        <img src="/public/Decore.png" alt="" class="absolute right-0 top-[-5vh] w-[45vw] h-[80vh] -z-10">
+
+        <!-- Hero image -->
+        <div class="w-[45vw]">
+            <img src="/public/Image.png" alt="Hero travel image" class="w-full h-[80vh] object-cover relative z-10">
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORY SECTION -->
+    <section class="mt-[15vh] text-center">
+        <h3 class="text-[#6246E5] text-[0.9rem] font-semibold tracking-widest">
+            CATEGORY
+        </h3>
+        <h2 class="text-[#14183E] text-[2.5rem] font-bold font-[Volkhov] mt-[1vh]">
+            We Offer Best Services
+        </h2>
+
+        <div class="flex justify-between mt-[8vh]">
+
+            <div class="w-[170px] text-center">
+                <img src="/public/Group 1.png" alt="Weather icon" class="mx-auto">
+                <h3 class="text-[#1E1D4C] font-semibold mt-[2vh]">Calculated Weather</h3>
+                <p class="text-[#5E6282] text-[0.85rem] mt-[1.5vh]">
+                    Built Wicket longer admire do barton vanity itself do in it.
+                </p>
+            </div>
+
+            <div class="w-[170px] text-center">
+                <img src="/public/Group 2.png" alt="Flights icon" class="mx-auto h-[15vh]">
+                <h3 class="text-[#1E1D4C] font-semibold mt-[2vh]">Best Flights</h3>
+                <p class="text-[#5E6282] text-[0.85rem] mt-[1.5vh]">
+                    Engrossed listening. Park gate sell they west hard for the.
+                </p>
+            </div>
+
+            <div class="w-[170px] text-center">
+                <img src="/public/Group 3.png" alt="Events icon" class="mx-auto">
+                <h3 class="text-[#1E1D4C] font-semibold mt-[2vh]">Local Events</h3>
+                <p class="text-[#5E6282] text-[0.85rem] mt-[1.5vh]">
+                    Barton vanity itself do in it. Preferd to men it engrossed listening.
+                </p>
+            </div>
+
+            <div class="w-[170px] text-center">
+                <img src="/public/Group 4.png" alt="Customization icon" class="mx-auto">
+                <h3 class="text-[#1E1D4C] font-semibold mt-[2vh]">Customization</h3>
+                <p class="text-[#5E6282] text-[0.85rem] mt-[1.5vh]">
+                    We deliver outsourced aviation services for military customers.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- TOP DESTINATIONS -->
+    <section class="mt-[12vh]">
+        <h3 class="text-[#5E6282] text-[0.85rem] text-center font-semibold tracking-widest">
+            TOP SELLING
+        </h3>
+        <h2 class="text-center text-[2.5rem] text-[#14183E] mt-[1vh] font-bold font-[Volkhov]">
+            Top Destinations
+        </h2>
+
+        <div class="flex justify-between gap-[2vw] mt-[6vh]">
+
+            <!-- Rome -->
+            <div class="rounded-2xl overflow-hidden shadow-md">
+                <img src="/public/rome.png" alt="Rome, Italy" class="w-full object-cover">
+                <div class="px-[1vw] py-[2vh]">
+                    <div class="flex justify-between text-[#5E6282]">
+                        <p class="font-semibold">Rome, Italy</p>
+                        <p>$5.42k</p>
+                    </div>
+                    <div class="flex items-center gap-2 mt-[1vh] text-[#5E6282]">
+                        <i class="fa-solid fa-location-arrow text-[#DF6951]"></i>
+                        <p class="text-[0.85rem]">10 Days Trip</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- London -->
+            <div class="rounded-2xl overflow-hidden shadow-md">
+                <img src="/public/london.jpg" alt="London, UK" class="w-full object-cover">
+                <div class="px-[1vw] py-[2vh]">
+                    <div class="flex justify-between text-[#5E6282]">
+                        <p class="font-semibold">London, UK</p>
+                        <p>$4.2k</p>
+                    </div>
+                    <div class="flex items-center gap-2 mt-[1vh] text-[#5E6282]">
+                        <i class="fa-solid fa-location-arrow text-[#DF6951]"></i>
+                        <p class="text-[0.85rem]">12 Days Trip</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Europe -->
+            <div class="rounded-2xl overflow-hidden shadow-md">
+                <img src="/public/europe.png" alt="Full Europe" class="w-full object-cover">
+                <div class="px-[1vw] py-[2vh]">
+                    <div class="flex justify-between text-[#5E6282]">
+                        <p class="font-semibold">Full Europe</p>
+                        <p>$15k</p>
+                    </div>
+                    <div class="flex items-center gap-2 mt-[1vh] text-[#5E6282]">
+                        <i class="fa-solid fa-location-arrow text-[#DF6951]"></i>
+                        <p class="text-[0.85rem]">28 Days Trip</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- EASY AND FAST -->
+    <section class="flex justify-between items-start mt-[15vh]">
+
+        <!-- Left side text -->
+        <div class="w-[40vw]">
+            <h3 class="text-[#84829A] font-semibold">Easy and Fast</h3>
+            <h2 class="text-[#14183E] text-[2.5rem] font-bold leading-[1.2] font-[Volkhov] mt-[1vh]">
+                Book your next trip <br> in 3 easy steps
+            </h2>
+
+            <!-- Step 1 -->
+            <div class="flex gap-[15px] mt-[5vh] items-start">
+                <img src="/public/yellow.png" alt="" class="w-[50px] h-[55px] mt-1">
+                <div>
+                    <p class="text-[#5E6282] font-semibold">Choose Destination</p>
+                    <p class="text-[#5E6282] text-[0.9rem] mt-[0.5vh]">
+                        Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Urna, tortor tempus.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="flex gap-[15px] mt-[5vh] items-start">
+                <img src="/public/orange.png" alt="" class="w-[50px] h-[55px] mt-1">
+                <div>
+                    <p class="text-[#5E6282] font-semibold">Make Payment</p>
+                    <p class="text-[#5E6282] text-[0.9rem] mt-[0.5vh]">
+                        Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Urna, tortor tempus.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="flex gap-[15px] mt-[5vh] items-start">
+                <img src="/public/blue.png" alt="" class="w-[50px] h-[55px] mt-1">
+                <div>
+                    <p class="text-[#5E6282] font-semibold">Reach Airport on Selected Date</p>
+                    <p class="text-[#5E6282] text-[0.9rem] mt-[0.5vh]">
+                        Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Urna, tortor tempus.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right side trip card -->
+        <div class="relative">
+            <div class="bg-white shadow-xl w-[320px] rounded-2xl p-[20px]">
+                <img src="/public/girl.jpg" alt="Trip to Greece" class="w-full rounded-xl object-cover h-[200px]">
+
+                <p class="text-[#080809] font-semibold mt-[2vh]">Trip To Greece</p>
+
+                <div class="text-[#84829A] flex items-center gap-3 mt-[1vh] text-[0.85rem]">
+                    <p>14-29 June</p>
+                    <div class="h-[20px] border border-gray-300"></div>
+                    <p>by Robbin Joseph</p>
+                </div>
+
+                <div class="flex gap-4 mt-[2vh]">
+                    <img src="/public/LEAF.png" alt="Nature">
+                    <img src="/public/map icon.png" alt="Map">
+                    <img src="/public/send.png" alt="Send">
+                </div>
+
+                <div class="flex justify-between items-center mt-[2vh]">
+                    <div class="flex items-center gap-2 text-[#84829A]">
+                        <img src="/public/building 1.png" alt="">
+                        <p class="text-[0.85rem]">24 people going</p>
+                    </div>
+                    <i class="fa-regular fa-heart text-[#4152CA] text-lg cursor-pointer hover:text-red-500"></i>
+                </div>
+            </div>
+
+            <!-- Ongoing trip badge -->
+            <div class="absolute top-[-4vh] right-[-10vw] bg-white shadow-lg rounded-2xl w-[200px] p-[15px]">
+                <div class="flex items-center gap-[10px]">
+                    <img src="/public/Mask Group.png" alt="">
+                    <div>
+                        <p class="text-[#84829A] text-[0.8rem]">Ongoing</p>
+                        <p class="text-[#080809] font-semibold text-[0.9rem]">Trip to Rome</p>
+                    </div>
+                </div>
+                <div class="mt-[1.5vh]">
+                    <p class="text-[0.8rem]">
+                        <span class="text-[#84829A]">40%</span> Completed
+                    </p>
+                    <div class="w-full h-1.5 bg-gray-200 rounded-full mt-1">
+                        <div class="w-[40%] h-full bg-violet-400 rounded-full"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- TESTIMONIALS-->
+    <section class="flex justify-between items-start mt-[15vh]">
+
+        <div class="w-[35vw]">
+            <h4 class="text-[#5E6282] text-[0.85rem] font-semibold tracking-widest">TESTIMONIALS</h4>
+            <h2 class="text-[#14183E] text-[2.5rem] font-bold font-[Volkhov] leading-[1.2] mt-[1vh]">
+                What People Say <br> About Us.
+            </h2>
+            <img src="/public/three dots.png" alt="" class="mt-[10vh]">
+        </div>
+
+        <div class="w-[45vw]">
+            <!-- Person image -->
+            <img src="/public/man.png" alt="Mike Taylor" class="ml-[30px]">
+
+            <!-- Testimonial card -->
+            <div class="bg-white shadow-lg w-[370px] rounded-[10px] p-[25px] mt-[-3vh]">
+                <p class="text-[#4E4E73] text-[0.9rem] leading-8">
+                    "On the Windows talking painted pasture yet its express parties use. 
+                    Sure last upon he same as knew next. Of believed or diverted no."
+                </p>
+                <div class="text-[#5E6282] mt-[3vh]">
+                    <p class="font-semibold">Mike Taylor</p>
+                    <p class="text-[0.85rem]">Lahore, Pakistan</p>
+                </div>
+            </div>
+
+            <!-- Second person -->
+            <div class="mt-[2vh] ml-[15px]">
+                <p class="font-semibold text-[#5E6282]">Chris Thomas</p>
+                <p class="text-[0.85rem] text-[#5E6282]">CEO of Red Button</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- PARTNER LOGOS -->
+    <section class="flex justify-between items-center mt-[10vh]">
+        <img src="/public/axon.png" alt="Axon">
+        <img src="/public/jetstar.png" alt="Jetstar">
+        <img src="/public/expedia.png" alt="Expedia">
+        <img src="/public/Qantas.png" alt="Qantas" class="w-[100px]">
+        <img src="/public/litalia.png" alt="L'italia" class="w-[100px]">
+    </section>
+
+
+    <!-- SUBSCRIBE -->
+    <section class="mt-[12vh] text-center">
+        <h2 class="text-[#14183E] text-[1.8rem] font-bold font-[Volkhov] max-w-[500px] mx-auto leading-[1.3]">
+            Subscribe to get information, latest news and other interesting offers about Jadoo
+        </h2>
+
+        <div class="flex justify-center items-center gap-[1vw] mt-[4vh]">
+            <input 
+                type="email" 
+                placeholder="Your email" 
+                class="border border-gray-300 rounded-[7px] px-[1.5vw] py-[1.5vh] outline-none w-[25vw] text-[0.9rem]"
+            >
+            <button class="bg-[#F1A501] text-white px-[2vw] py-[1.5vh] rounded-[7px] hover:bg-[#d99200]">
+                Subscribe
+            </button>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="mt-[12vh] text-[#5E6282] pb-[5vh]">
+        <section class="flex justify-between gap-[3vw]">
+
+            <!-- Brand -->
+            <div class="w-[20vw]">
+                <h2 class="text-[#181E4B] text-[2rem] font-bold">JADOO.</h2>
+                <p class="mt-[2vh] text-[0.9rem] leading-7">
+                    Book your trip in minute, get full <br> Control for much longer.
+                </p>
+            </div>
+
+            <!-- company links -->
+            <div>
+                <h3 class="text-black font-semibold">Company</h3>
+                <div class="flex flex-col gap-[1.5vh] mt-[2vh] text-[0.9rem]">
+                    <a href="#" class="hover:text-[#DF6951]">About</a>
+                    <a href="#" class="hover:text-[#DF6951]">Careers</a>
+                    <a href="#" class="hover:text-[#DF6951]">Mobile</a>
+                </div>
+            </div>
+
+            <!-- contact links -->
+            <div>
+                <h3 class="text-black font-semibold">Contact</h3>
+                <div class="flex flex-col gap-[1.5vh] mt-[2vh] text-[0.9rem]">
+                    <a href="#" class="hover:text-[#DF6951]">Help/FAQ</a>
+                    <a href="#" class="hover:text-[#DF6951]">Press</a>
+                    <a href="#" class="hover:text-[#DF6951]">Affiliates</a>
+                </div>
+            </div>
+
+            <!-- orher links -->
+            <div>
+                <h3 class="text-black font-semibold">More</h3>
+                <div class="flex flex-col gap-[1.5vh] mt-[2vh] text-[0.9rem]">
+                    <a href="#" class="hover:text-[#DF6951]">Airline fees</a>
+                    <a href="#" class="hover:text-[#DF6951]">Airline</a>
+                    <a href="#" class="hover:text-[#DF6951]">Low fare tips</a>
+                </div>
+            </div>
+
+            <!-- Social and App buttons -->
+            <div>
+                <!-- Social icons -->
+                <div class="flex gap-[15px]">
+                    <img src="/public/fb.png" alt="Facebook">
+                    <img src="/public/multicolor.png" alt="Instagram">
+                    <img src="/public/x.png" alt="X / Twitter">
+                </div>
+
+                <h4 class="text-center mt-[2vh] font-semibold text-black">Discover our app</h4>
+
+                <!-- App store buttons -->
+                <div class="flex flex-col gap-[1.5vh] mt-[2vh]">
+
+                    <!-- Google Play -->
+                    <button class="bg-black text-white rounded-xl w-[160px] px-[12px] py-[10px] flex items-center gap-[10px] hover:bg-gray-800">
+                        <iconify-icon icon="mdi:google-play" class="text-2xl"></iconify-icon>
+                        <div class="text-left">
+                            <p class="text-[0.55rem] text-gray-400">GET IT ON</p>
+                            <p class="text-[0.8rem] font-semibold">Google Play</p>
+                        </div>
+                    </button>
+
+                    <!-- App Store -->
+                    <button class="bg-black text-white rounded-xl w-[160px] px-[12px] py-[10px] flex items-center gap-[10px] hover:bg-gray-800">
+                        <i class="fa-brands fa-apple text-2xl"></i>
+                        <div class="text-left">
+                            <p class="text-[0.55rem] text-gray-400">Available on the</p>
+                            <p class="text-[0.8rem] font-semibold">App Store</p>
+                        </div>
+                    </button>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Copyright -->
+        <p class="text-center text-[0.85rem] mt-[8vh]">
+            &copy; 2025 Jadoo.co — All rights reserved
+        </p>
+    </footer>
+
+</body>
+</html>
